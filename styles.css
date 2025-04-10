@@ -1,32 +1,45 @@
 
 body {
-    margin: 0;
-    font-family: sans-serif;
-    background: #fff8f0 url('background.jpg') no-repeat center center fixed;
+    font-family: Arial, sans-serif;
+    background-image: url('background.jpg');
     background-size: cover;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
     color: #333;
-}
-header {
-    background-color: #fff0e6;
     text-align: center;
+}
+
+header {
+    background-color: rgba(255, 255, 255, 0.9);
     padding: 20px;
 }
+
 .logo {
     width: 120px;
 }
+
 nav a {
-    margin: 0 15px;
+    margin: 0 10px;
     text-decoration: none;
-    color: #aa5e00;
+    color: #a44a00;
+    font-weight: bold;
 }
-.language-switcher button {
-    margin: 2px;
-    background-color: #fff;
-    border: 1px solid #ccc;
+
+.languages button {
+    margin: 5px;
 }
+
+main {
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
 footer {
-    background-color: #fff0e6;
-    text-align: center;
+    background-color: rgba(255, 255, 255, 0.9);
     padding: 10px;
-    margin-top: 20px;
+}
+.qr {
+    width: 150px;
+    margin: 20px 0;
 }
