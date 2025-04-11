@@ -1,0 +1,44 @@
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-image: url('sfondo.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: #fff;
+    text-align: center;
+}
+header {
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+.logo {
+    width: 150px;
+}
+nav a {
+    margin: 0 10px;
+    color: orange;
+    font-weight: bold;
+    text-decoration: none;
+}
+.languages {
+    margin-top: 10px;
+}
+.languages button {
+    margin: 2px;
+    padding: 5px 10px;
+    font-weight: bold;
+}
+main {
+    margin-top: 40px;
+}
+.qr {
+    width: 150px;
+    margin-top: 20px;
+}
+footer {
+    margin-top: 40px;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
